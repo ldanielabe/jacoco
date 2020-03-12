@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Prueba</string>
+    <string name="sign_in_password_hint">Contraseña</string>
+    <string name="sign_in_submit_action">Ingresar</string>
+    <string name="sign_in_email_hint">Correo</string>
+</resources>
