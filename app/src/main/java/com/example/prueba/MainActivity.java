@@ -30,6 +30,6 @@ public class MainActivity extends AppCompatActivity {
 
     public boolean isZero(String s) {
 
-        
+        return true;
     }
 }
