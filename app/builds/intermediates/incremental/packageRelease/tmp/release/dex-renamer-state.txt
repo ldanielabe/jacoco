@@ -1,0 +1,4 @@
+#Thu Mar 12 11:56:41 COT 2020
+base.0=C\:\\Users\\Wposs\\Documents\\Prueba\\app\\build\\intermediates\\dex\\release\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

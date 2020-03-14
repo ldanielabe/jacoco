@@ -19,13 +19,18 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public int onClickRegistrar() {
+    public void onClickRegistrar() {
         //Intent intent = new Intent() ;
         //intent.setClass(this , MainActivity.class);
         //startActivity(intent);
+        String correo = ((EditText)findViewById(R.id.edit_username)).getText().toString();
+        String clave =((EditText)findViewById(R.id.edit_username)).getText().toString();
+        if(correo!=null && clave!=null){
 
-        Toast.makeText(MainActivity.this,"Correo: "+((EditText)findViewById(R.id.edit_username)).getText().toString(),Toast.LENGTH_LONG).show();
-        return findViewById(R.id.edit_password).toString().length();
+            Toast.makeText(MainActivity.this,"Correo: "+correo,Toast.LENGTH_LONG).show();
+
+        }
+
     }
 
     public boolean isZero(String s) {
